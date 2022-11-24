@@ -1,0 +1,6 @@
+.new{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    text-align: center;
+}

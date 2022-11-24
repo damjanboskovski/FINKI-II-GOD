@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scripts/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Осигурување на возила</h1>
+        <div class="input-field"><div class="input">Име <input type="text" id="name"></div></div>
+        <div class="input-field"><div class="input">Презиме <input type="text" id="surname"></div></div>
+        <div class="input-field"><div class="input">Регистарска таблица <input type="text" id="regtable"></div></div>
+        <div class="input-field"><div class="input">Година на старост <input type="text" id="age"></div></div>
+        <div class="input-field">
+            <div class="input">
+                Сообраќајна незгода
+                <input type="radio" name="test" id="yes">Да
+                <input type="radio" name="test" id="no">Не
+            </div>
+        </div>
+        <button onclick="generate()">Генерирај сметка</button>
+
+    <h1>Сметки</h1>
+    <div class="bills-pay"><p>Вкупно сметки за плаќање: </p><div id="bills-payed"></div> </div>
+
+    <div>
+        <ul id="bills">
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+</html>
