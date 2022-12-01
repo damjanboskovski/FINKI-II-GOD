@@ -51,6 +51,8 @@ function generate(){
     mainList.append(newDiv); cnt++;
     let counter = document.getElementById("bills-payed");
     counter.innerHTML = cnt;
+
+    name.value=""; surname.value=""; reg.value=""; age.value=""; radioNo.value=""; radioYes.value=""
 }
 
 function regFormat(registration){
