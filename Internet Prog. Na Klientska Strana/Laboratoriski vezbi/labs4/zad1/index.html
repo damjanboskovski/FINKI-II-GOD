@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scripts/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Форма за внесување оцени</h1>
+        <div class="input-field"><div class="input">Име: <input type="text" id="name"></div></div>
+        <div class="input-field"><div class="input">Презиме: <input type="text" id="surname"></div></div>
+        <div class="input-field"><div class="input">Индекс: <input type="text" id="index"></div></div>
+        <div class="input-field"><div class="input">Предмет: <input type="text" id="subject"></div></div>
+        <div class="input-field">
+            <div class="input">
+                Оцена
+                <select name="" id="grade">
+                    <option value="5 (пет)">5 (пет)</option>
+                    <option value="6 (шест)">6 (шест)</option>
+                    <option value="7 (седум)">7 (седум)</option>
+                    <option value="8 (осум)">8 (осум)</option>
+                    <option value="9 (девет)">9 (девет)</option>
+                    <option value="10 (десет)">10 (десет)</option>
+                </select>
+            </div>
+        </div>
+        <button onclick="generate()">Внеси</button>
+
+    <table id="class">
+        <thead>
+            <th class="name1">Име</th>
+            <th class="surname1">Презиме</th>
+            <th class="index1">Индекс</th>
+            <th class="subject1">Предмет</th>
+            <th class="grade1">Оцена</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script type="text/javascript" src="./scripts/scripts.js"></script>
+</body>
+</html>
